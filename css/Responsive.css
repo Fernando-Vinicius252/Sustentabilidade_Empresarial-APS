@@ -1,0 +1,105 @@
+
+@media (max-width: 720px){
+    .BackButton{
+        visibility: hidden;
+    }
+
+    #Titulo{
+        font-size: 30px;
+    }
+
+    #Titulo2{
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .NavPags {
+        flex-direction: column;
+    }
+
+    #pag{
+        align-self: center;
+        margin: 20px 0;
+    }
+
+    #ulpag3{
+        margin: 40px 0 0 0;
+        font-size: 17px;
+    }
+
+    #olpag3{
+        margin: 40px 0 0 0;
+        font-size: 17px;
+    }
+    
+    #olpag4 {
+        font-size: 17px;
+        margin: 0 0px 40px 0;
+    }
+
+    #ulpag4{
+        margin: 40px 0 0 0;
+    }
+
+    
+
+}
+
+@media (max-width: 720px) and (min-width: 640px){
+    .BackButton{
+        visibility: visible;
+        left: 5px;
+        top: 10px;
+        width: 50px;
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 721px)
+{
+    .BackButton{
+        visibility: visible;
+        left: 6px;
+        top: 10px;
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 1155px) and (min-width: 945px){
+    #Titulo{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1024px){
+
+    div{
+        flex-direction: column;
+    }
+
+    .ImgSection {
+        width: auto;
+    }
+
+    #pdiv{
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    #ulpag3{
+        margin: 40px 0 0 0;
+    }
+
+    #olpag3 {
+        margin-left: 20px;
+    }
+
+    #olpag4{
+        margin: 0 0px 40px 0;
+    }
+}
+

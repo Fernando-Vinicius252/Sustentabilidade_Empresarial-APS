@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(180deg, rgb(11 199 30 / 87%) 0%, rgb(17 98 3 / 76%) 100%), url(../img/fundo.jpg);
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    margin: 40px 0 10px 0px;
+    color: #FFFFFF;
+}
+
+#Titulo{
+    font-size: 60px;
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 500;
+}
+
+#Titulo2{
+    margin: 30px 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: xxx-large;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#SectionPagPrinc{
+    text-align: justify;
+    margin: 40px 10% 40px 10%;
+}
+
+p{
+    width: 100%;
+    font-family: 'Bree_Serif';
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin: 40px 0;
+}
+
+#pdiv{
+    margin-left: 40px;
+}
+
+h2{
+    font-family: 'Bree_Serif';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+}
+
+hr{
+    margin: 0px 0 40px 0px;
+    width: 83%;
+    margin-left: 8.5%;
+    box-shadow: 0px 1px 0px rgb(255 255 255);
+}
+
+.bloco{
+    max-width: 272px;
+    height: 252px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 4px rgb(0 0 0 / 25%);
+    border-radius: 36px;
+    margin: 0px 10px 0px 10px;
+}
+
+.NavPags{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.ImgBloco{
+    width: 75%;
+    box-shadow: 4px 4px 10px 2.5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 35px 0 0 0;
+}
+
+.TextBloco{
+    margin: 8px 12px 40px 12px;
+}
+
+.ImgSection{
+    width: 50%;
+    border: 15px solid #F1F2E0;
+    box-shadow: 4px 4px 10px 2.5px rgb(0 0 0 / 35%);
+    border-radius: 5px;
+    height: max-content;
+}
+
+ol, ul{
+    font-family: 'Bree_Serif';
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.BackButton{
+    width: 72px;
+    position: fixed;
+    left: 20px;
+}
+
+#ulpag3{
+    margin-left: 65px;
+}
+
+#olpag3{
+    margin-left: 50px; 
+    font-size: 20px;
+}
+
+#olpag4 {
+    margin-right: 65px;
+}
+
+#ulpag4{
+    margin-left: 50px; 
+    font-size: 22px;
+}
